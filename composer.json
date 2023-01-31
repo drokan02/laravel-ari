@@ -1,8 +1,14 @@
 {
-   
-    "type": "library",
-
     "require": {
-      
-    }
+        "php": ">=7.0"
+    },
+    "repositories": [
+        {
+            "packagist.org": false
+        },
+        {
+            "type": "path",
+            "url": "my_package/"
+        }
+    ]
 }
