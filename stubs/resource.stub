@@ -1,0 +1,32 @@
+<?php
+
+namespace {{ namespace }};
+
+use App\JsonApi\Traits\JsonApiResource;
+use Illuminate\Http\Resources\Json\JsonResource;
+
+class {{ class }} extends JsonResource
+{
+   use JsonApiResource;
+
+    public function toJsonApiAttributes(): array
+    {
+        return [
+           //
+        ];
+    }
+
+    function getRelationshipsLinks(): array
+    {
+        return [
+            //
+        ];
+    }
+
+    public function getIncludes(): array
+    {
+        return [
+            //
+        ];
+    }
+}
